@@ -16,25 +16,3 @@ Surface: É a área retangular da tela onde você desenha. Pode representar a te
 Sprites: Objetos gráficos que podem ser movidos e interagir no jogo.
 Eventos: Pygame utiliza um sistema de eventos para capturar ações do usuário, como pressionar teclas ou mover o mouse.
 Clock: Ajuda a controlar a taxa de quadros e o tempo no jogo.
-
-### Exemplo Simples de Código Pygame:
-
-import pygame
-pygame.init()
-
-# Configurações iniciais
-screen = pygame.display.set_mode((800, 600))
-pygame.display.set_caption("Meu Jogo Pygame")
-
-running = True
-while running:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            running = False
-
-    # Lógica do jogo e desenho na tela aqui
-
-    pygame.display.flip()
-
-pygame.quit()
-
