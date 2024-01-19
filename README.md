@@ -12,7 +12,7 @@ Ele é construído sobre a biblioteca SDL (Simple DirectMedia Layer) e oferece u
 
 ### Elementos Principais:
 
-Surface: É a área retangular da tela onde você desenha. Pode representar a tela inteira ou uma parte dela.
-Sprites: Objetos gráficos que podem ser movidos e interagir no jogo.
-Eventos: Pygame utiliza um sistema de eventos para capturar ações do usuário, como pressionar teclas ou mover o mouse.
-Clock: Ajuda a controlar a taxa de quadros e o tempo no jogo.
+###### Surface: É a área retangular da tela onde você desenha. Pode representar a tela inteira ou uma parte dela.
+###### Sprites: Objetos gráficos que podem ser movidos e interagir no jogo.
+###### Eventos: Pygame utiliza um sistema de eventos para capturar ações do usuário, como pressionar teclas ou mover o mouse.
+###### Clock: Ajuda a controlar a taxa de quadros e o tempo no jogo.
