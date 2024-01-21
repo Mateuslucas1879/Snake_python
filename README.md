@@ -18,15 +18,15 @@ Ele é construído sobre a biblioteca SDL (Simple DirectMedia Layer) e oferece u
 ###### Clock: Ajuda a controlar a taxa de quadros e o tempo no jogo.
 
 #### CODIGO INICIAL PYGAME: 
-import pygame
+###### import pygame
 
-pygame.init()
+###### pygame.init()
 
 
-screen_width = 600
-screen_height = 400
-game_window = pygame.display.set_mode((screen_width, screen_height))
-pygame.display.set_caption("Jogo da Cobra")
+###### screen_width = 600
+###### screen_height = 400
+###### game_window = pygame.display.set_mode((screen_width, screen_height))
+###### pygame.display.set_caption("Jogo da Cobra")
 
-pygame.quit()
-quit()
+###### pygame.quit()
+###### quit()
