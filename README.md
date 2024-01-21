@@ -29,10 +29,10 @@ Ele é construído sobre a biblioteca SDL (Simple DirectMedia Layer) e oferece u
 ###### executando = True
 
 ###### while executando:
-    ###### for evento in pygame.event.get():
-        ###### if evento.type == pygame.QUIT:
-            ###### executando = False
-    ###### janela_do_jogo.fill((0, 0, 0))
-    ###### pygame.display.flip()
+    for evento in pygame.event.get():
+         if evento.type == pygame.QUIT:
+             executando = False
+     janela_do_jogo.fill((0, 0, 0))
+     pygame.display.flip()
 ###### pygame.quit()
 
