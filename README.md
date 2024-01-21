@@ -16,3 +16,17 @@ Ele é construído sobre a biblioteca SDL (Simple DirectMedia Layer) e oferece u
 ###### Sprites: Objetos gráficos que podem ser movidos e interagir no jogo.
 ###### Eventos: Pygame utiliza um sistema de eventos para capturar ações do usuário, como pressionar teclas ou mover o mouse.
 ###### Clock: Ajuda a controlar a taxa de quadros e o tempo no jogo.
+
+#### CODIGO INICIAL PYGAME: 
+import pygame
+
+pygame.init()
+
+# Configurações de Tela 
+screen_width = 600
+screen_height = 400
+game_window = pygame.display.set_mode((screen_width, screen_height))
+pygame.display.set_caption("Jogo da Cobra")
+
+pygame.quit()
+quit()
