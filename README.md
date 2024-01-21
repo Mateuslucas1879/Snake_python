@@ -22,7 +22,7 @@ import pygame
 
 pygame.init()
 
-# Configurações de Tela 
+####### Configurações de Tela 
 screen_width = 600
 screen_height = 400
 game_window = pygame.display.set_mode((screen_width, screen_height))
